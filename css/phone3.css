@@ -1,0 +1,95 @@
+#navbar
+{
+    flex-direction: column;
+    height: 120px;
+   padding:0px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items ul
+{
+    padding-left: 0px;
+}
+.nav-items ul li a
+{
+    font-size: 0.7rem;
+    padding:5px;
+   
+}
+#home
+{
+   height: 280px;
+   padding: 10px 50px;
+}
+#home::before
+{
+    height: 280px;
+
+}
+.service
+{
+ flex-direction: column;
+}
+.client-section
+{
+   flex-wrap: wrap;
+   overflow: hidden;
+
+}
+.clients{
+    flex-direction:row;
+    position: relative;
+    padding: 0px 10px;
+}
+.client-item{
+    height: 100px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.client-item img
+{
+    height: 30px;
+    width: auto;
+}
+.contact-box{
+
+}
+.contact-box label
+{
+  font-size: 0.5rem;
+}
+.primary
+{
+    padding: 5px;
+    font-size: 1.0rem;
+}
+.secondary
+{
+    font-size: 0.8rem;
+}
+#btn
+{
+    font-size: 1rem;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+}
+.contact-box
+{
+    margin: 20px 0px;
+}
+.contact-box label
+{
+    font-size: 0.7rem;
+}
+.contact-box input
+{
+    font-size: 0.6rem;
+}
+.box p
+{
+    font-size: 0.7rem;
+}
+
+footer{
+    font-size: 0.7rem;
+}

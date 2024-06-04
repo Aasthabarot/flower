@@ -1,0 +1,61 @@
+#navbar
+{
+    flex-direction: column;
+    height: 120px;
+    padding-top: 20px;
+}
+#home
+{
+   height: 280px;
+   padding: 10px 50px;
+}
+#home::before
+{
+    height: 280px;
+
+}
+.service
+{
+ flex-direction: column;
+}
+.client-section
+{
+   flex-wrap: wrap;
+
+}
+.clients{
+    flex-direction:row;
+}
+.client-item{
+    height: 100px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.client-item img
+{
+    height: 60px;
+   
+
+}
+.contact-box{
+
+}
+.contact-box
+{
+
+}
+.primary
+{
+    padding: 5px;
+    font-size: 2.0rem;
+}
+#btn
+{
+    font-size: 1.2rem;
+}
+.contact-box label
+{
+    font-size: 1rem;
+
+  
+}

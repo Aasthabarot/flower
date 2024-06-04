@@ -1,0 +1,69 @@
+#navbar
+{
+    flex-direction: column;
+    height: 120px;
+    padding-top: 20px;
+    overflow: hidden;
+  
+}
+.nav-items ul li a
+{
+    font-size: 0.8rem;
+   
+}
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+}
+#home
+{
+    padding:10px 10px;
+    height: 280px;
+}
+#home::before
+{
+    height: 280px;
+
+}
+.service
+{
+ flex-direction: column;
+}
+.client-section
+{
+    overflow: hidden;
+
+}
+#btn
+{
+    padding: 3px 10px 3px 10px;
+    font-size: 1rem;
+    border-radius: 20px
+    
+    
+}
+.client-section
+{
+    flex-wrap: wrap;
+}
+.client-item
+{
+    height: 100px;
+    padding: 0px;
+    margin-top: 20px;
+}
+.client-item img
+{
+    height: 30px;
+   
+}
+.primary
+{
+    padding: 5px;
+    font-size: 2.0rem;
+}
+.contact-box label
+{
+    font-size: 0.7rem;
+  
+}
